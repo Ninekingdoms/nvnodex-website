@@ -44,7 +44,7 @@ html{scroll-padding-top:110px}body{background:var(--paper);color:var(--ink)}::se
 .community-pattern{position:absolute;display:block;left:50%;top:clamp(-760px,-48vw,-420px);width:min(1800px,160vw);max-width:none;height:auto;transform:translateX(-50%);opacity:.19;transform-origin:50% 50%;animation:community-breathe 24s ease-in-out infinite alternate;animation-play-state:paused}
 .entry-page[data-background-motion="playing"] .community-pattern{animation-play-state:running}
 .entry-page[data-home="false"] .community-backdrop{display:none}
-.halo-hero{display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:400px;padding:26px 0 24px;gap:0;text-align:center}
+.halo-hero{display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:280px;padding:26px 0 24px;gap:0;text-align:center}
 .hero-copy{max-width:680px;pointer-events:auto}
 .hero-kicker{justify-content:center;letter-spacing:2px;font-size:11px;margin-bottom:14px}
 .hero-lead{font-size:clamp(42px,4.2vw,56px);letter-spacing:1px;line-height:1.25}
@@ -63,8 +63,8 @@ html{scroll-padding-top:110px}body{background:var(--paper);color:var(--ink)}::se
 .entry-footnote{background:#f7f3e9dc}
 .entry-footer{position:relative;background:#f7f3e9ed}
 @keyframes community-breathe{from{transform:translateX(-50%) rotate(-2deg) scale(.99)}to{transform:translateX(-50%) rotate(2deg) scale(1.01)}}
-@media(min-width:1600px){.halo-hero{min-height:430px}.community-pattern{width:2000px;top:-820px}.hero-lead{font-size:60px}}
-@media(max-width:760px){.halo-hero{min-height:390px;padding-top:25px;padding-bottom:25px}.hero-lead{font-size:43px}.hero-message{font-size:25px}.community-pattern{top:-610px;width:1500px}}
+@media(min-width:1600px){.halo-hero{min-height:300px}.community-pattern{width:2000px;top:-820px}.hero-lead{font-size:60px}}
+@media(max-width:760px){.halo-hero{min-height:260px;padding-top:25px;padding-bottom:25px}.hero-lead{font-size:43px}.hero-message{font-size:25px}.community-pattern{top:-610px;width:1500px}}
 @media(max-width:600px){.halo-hero{min-height:0;padding-top:28px;padding-bottom:28px}.hero-copy{max-width:100%;width:100%}.hero-kicker{font-size:10px;letter-spacing:1px;margin-bottom:14px}.hero-lead{font-size:clamp(30px,8vw,42px);letter-spacing:0}.hero-message{font-size:25px;line-height:1.3;margin-top:12px;gap:5px}.hero-description{margin:16px auto 0;font-size:13px;line-height:1.8;max-width:280px}.desktop-break{display:block}.hero-action-row{margin-top:13px;gap:18px}.hero-action-row .hero-cta{font-size:13px;margin-top:0;gap:16px}.community-pattern{top:-300px;width:820px;opacity:.19}.community-backdrop{mask-image:linear-gradient(to bottom,#000 0,#000 170px,transparent 570px)}.entry-section-heading{background:transparent;margin-bottom:16px}.entry-section .section-index{display:none}.entry-footnote{background:transparent}.entry-footer{background:#f7f3e9ed}}
 @media(max-width:360px){.halo-hero{padding-top:23px;padding-bottom:24px}.hero-lead{font-size:30px}.hero-message{font-size:23px}.hero-kicker{font-size:9px}.hero-action-row{gap:12px}}
 @media(prefers-reduced-motion:reduce){.community-pattern{animation:none;transform:translateX(-50%)}.motion-toggle{display:none}}
@@ -125,7 +125,7 @@ html{scroll-padding-top:110px}body{background:var(--paper);color:var(--ink)}::se
 <main><section class="entry-home" aria-labelledby="home-title"><div class="shell halo-hero">
     <div class="hero-copy">
       <p class="hero-kicker"><span aria-hidden="true"></span> 一点善意，彼此照亮</p>
-      <h1 id="home-title" tabindex="-1"><span class="hero-lead">我们都有光环</span><span class="hero-message"><span>热爱生活</span><span>做一些有意义的事</span><span class="hero-last">一起发光<span class="light-spark" aria-hidden="true">✳</span></span></span></h1>
+      <h1 id="home-title" tabindex="-1"><span class="hero-lead">做一些有意义的事</span></h1>
       <section class="public-notice" aria-label="网站状态"><p class="public-status">网站备案审核中</p><p>网站暂未开放服务，待备案完成后开放。</p><p>感谢你的耐心等待。</p></section>
       
     </div>
